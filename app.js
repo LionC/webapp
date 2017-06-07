@@ -3,7 +3,7 @@ var root = $('html, body')
 var userId = 'changeme'
 var events = []
 
-$.getJSON('http://localhost:8080/api/events', function(data) {
+$.getJSON('http://psy-backend.zinja.io/api/events', function(data) {
     events.push(...data)
 })
 
