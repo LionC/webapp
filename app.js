@@ -33,7 +33,7 @@ new Vue({
                     'Accept' : 'application/json',
                     'Content-Type' : 'application/json'
                 },
-                url : 'http://localhost:8080/api/events/' + id,
+                url : 'http://psy-backend.zinja.io/api/events/' + id,
                 type : 'PATCH',
                 data : JSON.stringify(status),
                 success : function updateSignupStatus() {
